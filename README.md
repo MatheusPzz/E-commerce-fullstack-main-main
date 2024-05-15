@@ -22,7 +22,7 @@ To install the E-Commerce Platform, follow these steps:
 
 1. Clone the repository:
    
-git clone https://github.com/yourusername/your-repository-name.git
+git clone 
 cd your-repository-name
 
 3. Install backend dependencies:
