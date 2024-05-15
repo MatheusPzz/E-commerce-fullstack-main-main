@@ -1,0 +1,18 @@
+/* HomePage.css */
+.homePage {
+    display: grid, flex;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  .homePageContainer{
+    background-color: aquamarine;
+  }
+  
+  .homePage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+

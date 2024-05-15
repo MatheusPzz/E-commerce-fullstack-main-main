@@ -1,0 +1,5 @@
+{
+    "git.scanRepositories": [
+        "https://github.com/MatheusPzz/E-commerce-fullstack.git"
+    ]
+}

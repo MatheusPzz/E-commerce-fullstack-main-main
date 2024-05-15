@@ -1,0 +1,56 @@
+/* ProductCard.css */
+.productCard {
+    max-width: 300px; /* Maintain the card width */
+    margin: 40px auto; /* Adds vertical margin top and bottom, auto margins on the sides for centering */
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: 0.3s; /* Smooth transition for hover effects */
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    overflow: hidden; /* Ensure the content respects border radius */
+}
+
+/* For grid layout in HomePage, adjust side margins */
+.productsGrid .productCard {
+    margin: 20px; /* Adjusts spacing around each card for the grid layout */
+}
+
+.productCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.productCard img {
+    width: 100%; /* Ensure the image covers the width of the card */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.productCardContent {
+    padding: 20px; /* Spacing inside the card */
+}
+
+.productCardTitle {
+    font-size: 18px; /* Title font size */
+    margin-bottom: 15px; /* Spacing below the title */
+    color: #333; /* Title color */
+    font-weight: 600; /* Make the title stand out */
+}
+
+.productCardDescription {
+    font-size: 14px; /* Description font size */
+    color: #777; /* Description text color for readability */
+    margin-bottom: 15px; /* Spacing below the description */
+}
+
+.productCardFooter {
+    margin-top: 20px; /* Spacing for the footer section */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productCardPrice {
+    margin: 40px; /* Center the price vertically */
+    font-size: 16px; /* Price font size */
+    color: #333; /* Price color */
+    font-weight: 600; /* Emphasize the price */
+}
